@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>TESTE 01</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body >
+
+		<h2>Formatação de texto</h2>
+
+		Lorem Ipsum is simply dummy text of the <em>printing and typesetting</em> industry.<br>
+		Lorem Ipsum is simply dummy text of the <strong>printing and typesetting</strong> industry. <br>
+		Lorem Ipsum is simply dummy text of the <u>printing and typesetting</u> industry. <br>
+		Lorem Ipsum is simply dummy text of the <strike>printing and typesetting</strike> industry.
+
+		<!--Normalmente utiliza formatações com CSS, mas a anotação mostra que também é possível com HTML, apesar de não ser recomendado-->
+		
+		<hr>
+
+		<H2>Lista Não Ordenada</H2>
+
+		<ul type="square">
+			<li>Item Número 1</li>
+			<li>Item Número 2</li>
+			<li>Item Número 3</li>
+			<li>Item Número 4</li>
+			<li>Item Número 5</li>
+		</ul>
+
+		<!--Exemplo de Uso: Criação de Menus-->
+		<!--O type="" possibilita de mudar o icone da lista-->
+		<!-- Como: "square", "disc" e "circle" -->
+
+		<H2>Lista Ordenada</H2>
+
+		<ol type="5">
+			<li>Item Número 1</li>
+			<li>Item Número 2</li>
+			<li>Item Número 3</li>
+			<li>Item Número 4</li>
+			<li>Item Número 5</li>
+		</ol>
+
+		<!--Formatação do type: "a"/"A", "1" e "I"/"i" -->
+
+	</body>
+
+</html>
