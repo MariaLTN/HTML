@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>TESTE 01</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<h2>Imagens em HTML básico</h2>
+
+		<!--Adição de Imagens com HTML Básico-->
+		<img src="https://cdn.pixabay.com/photo/2019/02/03/11/01/daisy-3972317_960_720.jpg" width="300" height="200">
+
+		<!--Existe a possibilidade de salvar na pasta do projeto ou então como mostrado, pegar direto da internet.-->
+		<!--O risco é a imagem sair do ar logo a imagem não disponível. -->
+
+		<h2>Imagens Original</h2>
+		<img src="https://cdn.pixabay.com/photo/2019/02/03/11/01/daisy-3972317_960_720.jpg">
+
+	</body>
+</html>
