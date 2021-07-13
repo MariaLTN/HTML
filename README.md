@@ -6,15 +6,14 @@ Também com a finalidade de mostrar (sempre que possível a minha evolução) e 
 
 Dicionário de Palavras HTML:
 
-<p> = paragraph
-<br> = break
-<hr> = horizontal break
+"<p>" = paragraph
+"<br>" = break
+"<hr>" = horizontal break
 
-<ul> = unordered list
-<li> = list item 
-<ol> = ordered list
+"<ul>" = unordered list
+"<li>" = list item 
+"<ol>" = ordered list
 
-<a href="l"> Clique Aqui </a>
-a = anchor (âncora)
-href = h (hiperlink) ref (reference) ou HiperLink Referece
-  
+"<a href="l"> Clique Aqui </a>"
+"a" = anchor (âncora)
+"href" = h (hiperlink) ref (reference) ou HiperLink Referece
