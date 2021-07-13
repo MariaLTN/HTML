@@ -6,7 +6,7 @@ Também com a finalidade de mostrar (sempre que possível a minha evolução) e 
 
 Dicionário de Palavras HTML:
 
-"<p>" = paragraph
+'<p>' = paragraph
 "<br>" = break
 "<hr>" = horizontal break
 
