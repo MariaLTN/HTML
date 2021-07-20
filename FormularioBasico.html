@@ -33,6 +33,42 @@
 			<!--O action="" nos dá possibilidade de escolher onde queremos enviar os dados, obtidos dentro da tag "form" e assim processar de forma devida.-->
 
 		</form>
+		
+		<form>
+		
+			<h3>Cadastre-se</h3>
+
+			Login:<br>
+			<input type="text" name="Login"><br><br>
+
+			Senha: <br>
+			<input type="password" name="Senha"><br><br>
+
+			Sexo:<br>
+			<input type="radio" name="Sexo" value="Masculino"> Masculino<br>
+			<input type="radio" name="Sexo" value="Feminino"> Feminino<br><br>
+
+			<!--Adicionamos mais um componente 'value', porque quando mandarmos os dados para o processamento, devemos saber a opção que foi escolhida, assim, o uso do 'value'. Caso tivessemos apenas o 'name' eles apontariam para "Sexo", mas diferente de "Login" com apenas uma possibilidade de resposta, com "Sexo" temos duas.-->
+
+			Interesses:<br>
+			<input type="checkbox" name="Interesses" value="Redes de Computadores"> Redes de Computadores <br>
+			<input type="checkbox" name="Interesses" value="Sistemas Operacionais"> Sistemas Operacionais <br><br>
+
+			Estado:<br>
+			<select name="Estado">
+				<option value="Norte">Norte</option>
+				<option value="Nordeste">Nordeste</option>
+				<option value="Centro Oeste">Centro Oeste</option>
+				<option value="Sudeste">Sudeste</option>
+				<option value="Sul">Sul</option>
+			</select> <br><br>
+
+			Extras: <br>
+			<textarea></textarea><br><br>
+
+			<input type="submit" value="Cadastrar">
+
+		</form>
 
 	</body>
 </html>
