@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Bordas</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			.conteudo{
+				border: 5px solid red;
+			}
+			.unico{
+				border-color: red green blue purple;
+				border-width: 13px 7px 15px 7px
+				border-style: ridge dotted double dashed;
+			}
+			.dotted{
+				border: 5px dotted purple;
+			}
+			.dashed{
+				border: 5px dashed purple;
+			}
+			.groove{
+				border: 15px groove purple;
+			}
+			.double{
+				border: 5px double purple;
+			}
+			.ridge{
+				border: 15px ridge purple;
+			}
+			.inset{
+				border: 15px inset purple;
+			}
+			.outset{
+				border: 15px outset purple;
+			}
+			.none{
+				border: 5px none purple;
+			}
+			.hidden{
+				border: 5px hidden purple;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<h3>Bordas: Caracteristicas</h3>
+
+		<div class="conteudo">
+
+			<p>Quando definimos a bordas, na sua estrutura temos três componentes. O primeiro é <strong>ESPESSURA DA BORDA</strong>, o segundo é <strong>TIPO DA BORDA</strong> e o terceiro é <strong>COR DA BORDA</strong>. Ou então pode escrever as três linhas correspondentes com: "border-color: red", "border-width: 15px" e "border-style: outset".</p>
+
+			<p>Logo, teriamos uma estrutura assim: "border: 1px solid red"</p>
+
+		</div>
+
+		<div>
+			<p>A borda ficou na estrutura anterior, porque foi aplicado na div anterior.</p>
+
+			<p id="conteudo">Poderiamos ter a borda dentro de um paragrafo se quisermos</p>
+
+			<p>Temos algumas opções para o segundo componente: "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset", "none" e também "hidden" </p>
+		</div>
+
+		<div>
+			
+		<h3>Exemplos do segundo componente: Nos paragrafos.</h3>
+
+		<div class="conteudo">
+			<p>Essas estruturas foram feitas para fim educativo, em uma aplicação real muito do que esta escrito não é o recomendado!!!</p>		
+		</div>
+
+		<div>
+			<p class="dotted" align="center">Dotted</p>
+			<p class="dashed" align="center">Dashed (Cria um efeito 3D - invertido de ridge)</p>
+			<p class="groove" align="center">Groove</p>
+			<p class="double" align="center">Double</p>
+			<p class="ridge" align="center">Ridge (Cria um efeito 3D) - invertido de dashed</p>
+			<p class="inset">Inset</p>
+			<p class="outset" align="center">Outset</p>
+			<p class="none" align="center">None - Não tem borda</p>
+			<p class="hidden" align="center">Hidden - Esconde uma borda existente</p>
+		</div>
+
+		<div>				
+			<h3> Sobre estilos </h3>
+			<p class="unico">Podemos usar a segunda forma de definição para deixá-los únicos. Seguindo uma ordem importante: <strong>TOP RIGHT BOTTOM LEFT (Sentido Horário)</strong> tanto em "color" quanto em "width" e "style"</p>
+		</div>
+		</div>
+	</body>
+</html>
