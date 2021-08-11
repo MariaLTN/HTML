@@ -1,0 +1,24 @@
+a{
+	padding: 7px;
+	text-decoration: none;
+}
+
+/*Estado NÃO visitado*/
+a:link{
+	color: #FF8000;
+}
+
+/*Estado JÁ visitado*/
+a:visited{
+	color: #FF8000;
+}
+
+a:active{
+	color: #74DF00;
+;
+}
+
+a:hover{
+	color: #0000FF;
+	background: #F2F2F2;
+}
