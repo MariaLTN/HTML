@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Sobrepondo Elementos</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div class="Container">
+
+			<div class="Conteudo01">
+				<strong>Conteudo 01</strong>
+			</div>
+
+			<div class="Conteudo02">
+				<strong>Conteudo 02</strong>
+			</div>
+
+			<div class="Conteudo03">
+				<strong>Conteudo 03</strong>
+			</div>
+
+		</div>	
+		
+			<div>
+				<p>O <strong>"z-index"</strong> indica qual elemento aparece primeiro. Por padrão, primeiro teremos o "Conteudo 01" e por cima temos o "Conteudo 02". Para alterar isso, é possível ao usarmos o "z-index: número;" <strong>E quanto maior o número, mais a frente ele aparece</strong>.</p>
+
+				<p>Para fazer o "Conteudo 02" ficar no fundo e o "Conteudo 01" na frente podemos usar "z-index:1; (na classe css Conteudo01)" e "z-index:0; (na classe css Conteudo02)". Se os "z-index" de todos os elementos forem iguais, eles seguem a ordem do documento, ou seja, Conteudo 01 depois Conteudo 02 e Conteudo 03.</p>
+
+				<p>O "z-index" também é chamado de <strong>CONTEXTO DE EMPILHAMENTO</strong>.</p>
+			</div>
+
+		
+	</body>
+</html>
