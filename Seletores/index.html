@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Seletores</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body id="cabeçalho">
+
+		<h3>Seletor Universal</h3>
+
+		<p>Aplica-se em <strong>todos</strong> os elementos do documento. Logicamente, contando com o próprio body. <strong>Exemplo: No arquivo style.css</strong></p>
+
+		<h3>Seletor de Texto</h3>
+
+		<p>Seleciona elementos pelo tipo, por exemplo os "h1"..."h6". <strong>Exemplo: No arquivo style.css</strong></p><hr>
+
+		<H3>Seletor de Classe</H3>
+
+		<p>Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto.</p>
+
+		<p class="verde">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+		<span class="verde">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span><hr>
+
+		<h3>Seletor de ID</h3>
+
+		<p>Seleciona um elemento cujo atributo ID tem o valor especificado após o símbolo do jogo da velha.</p><hr>
+
+		<h3>Seletor de Filho</h3>
+
+		<p>Seleciona um elemento que é filho <strong>direto</strong> de outro. O sinal de ">" lê-se "filho de:". Exemplo: "li>a", ou seja, um link que é filho de "li". <strong>A leitura é de trás para frente, ou seja, do final</strong>. Assim, seleciona quaisquer elementos de "a" que são filhos de um elemento "li" (mas não outros elementos a na página) Interessante para a formatação de menus.</p>
+		
+		<ul>
+			<li>
+				<a href="">Filho 1</a>
+			</li>
+			<li>
+				<a href="">Filho 2</a>
+			</li>
+		</ul>
+
+		<a href="">Link Teste - Não filho</a><hr>
+
+		<h3>Seletor de Descendente</h3>
+
+		<p>Seleciona um elemento que é descendente de outro elemento especificado (e não apenas filho direto desse elemento). Exemplo: "li a {}", seleciona quaisquer elemento de "a" que reside dentro de um elemento "li", mesmo e houver outros elementos aninhado entre eles.</p>
+
+		<div>
+			<h4>Título</h4>
+			<p>
+				Filho 3: <a href="">Filho 3</a>
+			</p>
+		</div>		
+
+		<a href="">Link Teste - Não filho</a><hr>
+
+		<h3>Seletor de irmão adjacente</h3>
+		
+		<p>Seleciona um elemento que é o irmão próximo de outro. Exemplo: "h3+p {}", assim selecionamos o primeiro elemento "p" depois de quaisquer elemento "h3", mas não outros elementos "p".</p><hr>
+
+		<h3>Seletor de irmão geral</h3>
+		
+		<p>Seleciona um elemento que é um irmão de outro,
+		embora ele não precise ser o elemento diretamente precedente. MAIS APOS O ELEMENTO ESCOLHIDO. Exemplo: "h3~p {}", se houvesse dois elementos "p" que fosse irmãos de um elemento "h1", essa regra se aplicaria ao dois. ASSIM, SELECIONA O IRMÃO APOS O "H3".</p>
+
+	</body>
+</html>

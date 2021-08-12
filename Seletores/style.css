@@ -1,0 +1,58 @@
+/*PARA USAR O SELETOR UNIVERSAL:
+* {
+	border: 2px solid purple;
+}*/
+
+
+
+/*PARA USAR O SELETOR DE TEXTO:
+
+h3 {
+	color: red;
+}*/
+
+
+/*PARA USAR O SELETOR DE CLASSE:
+.verde{
+	color: green;
+}
+
+p.verde{
+	color: green;
+}*/
+
+
+/*
+PARA USAR O SELETOR DE ID:
+#cabeçalho{
+	background-color: gray;
+}*/
+
+
+/* 
+PARA USAR O SELETOR DE FILHO:
+li>a {
+	O seletor é para selecionar link que estejam dentro de li,
+	ou seja filhos de li. DIRETAMENTE DENTRO
+	color: red;
+	text-decoration: none;
+}*/
+
+
+/*
+PARA USAR O SELETOR DE DESCENDENTE:
+div a {
+	color: green
+}*/
+
+
+/*PARA USAR O SELETOR DE IRMÃO ADJACENTE:
+h3+p{
+	color: red;
+}*/
+
+
+/*PARA USAR O SELETOR DE IRMÃO GERAL:
+h3~p{
+	color: orange;
+}**/
