@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<title>Herança + Especificidade</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+		<h3>Textos Aleatórios</h3>
+
+		<div class="pagina">
+			<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+
+			<p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+		</div>
+
+		<div>
+			<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+		</div>
+
+		<div>
+			<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+		</div>
+
+		<hr>
+
+		<h3>Explicação: Herança</h3>
+
+		<p>Os conceitos de herança e especificidade, se aplicam aqui como uma forma de facilitar a formatação dos elementos. Analogo a imagem, temos quanto mais em cima aplicamos alguma formatação, mais ela vai ser herdada pelos outros que elementos que estão contidas nele. Embora, quanto mais embaixo aplicamos uma formatação mais especifica ela se torna para um seleto grupo de elementos que estão contidos nela. O exemplo pode ser visto nos textos aleatório, ao aplicar a formatação "color:red" no "body" vemos que todos os elementos contidos dentro do body herdaram/receberam essa formatação. Por outro lado, com a classe "pagina" de "color:green" aplicado ao primeiro "div" vemos que todos os elementos dentro do seleto grupo "div" herdaram essa formatação, mas os outros não.</p>
+
+		<p>É comum o conceito de aplicação de herança generalizada pois, quanto mais aplicamos formatações mais genericas podemos conforme vamos avançando, especificando apenas determinados lugares, assim facilitando a escrita do código. </p>
+
+		<p><strong>Por padrão "border" e "background" não são herdados. Exemplo, ao usar o "border: pink" no "body" ele aparece uma vez englobando todos os elementos da body e não uma borda em cada paragrafo, div ou h3. Para ter cada elemento com uma borda individual é necessário o uso do "*{color: pink}" um seletor visto na anotação passada.</strong></p>
+
+		<hr>
+
+		<h3 class="verde" id="purple">Explicação: Especificidade</h3>
+
+		<p>Com elas conseguimos aplicar as regras do CSS e quais delas serão aplicadas primeiro.Os seletores têm uma precedências.</p>
+
+		<p>Quando temos <strong>Seletores iguais sempre</strong> o último será aplicado. O exemplo pode ser visto com o "p{color: blue}" e depois "p:color red", o color red será aplicado. A ordem pode ser alterado caso tenhamos o uso do "!important", significando que aquela propriedade é mais importante que as outros. <strong>Mas não é muito recomendado, precisa ser usado com cautela.</strong></p>
+
+		<p>Por outro lado, se um seletor for <strong>mais especifico</strong> que outro, a regra mais especifica será aplicada - <strong>Terá precedência sobre as regras mais gerais</strong>. O exemplo pode ser visto com o uso generico do "*{cor: marrom}" que engloba todos os elementos, seja paragrafo, div ou h3. Mas por outro lado, temos o "h3" com cor laranja. E se ambas forem aplicadas juntas, vemos o texto com a coloração marrom, mas o titulos h3 com coloração laranja. Pois o "h3" é mais especifico que o "*". E sendo mais especifica ainda quando colocamos a classe="verde" em um elemento (Todas aplicadas juntas).Lembrando que o "id" é mais especifico que uma "classe"</p>
+
+		<p></p>
+
+	</body>
+</html>

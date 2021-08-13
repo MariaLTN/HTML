@@ -1,0 +1,43 @@
+/*
+PARA O ENTEDIMENTO DE HERANÇA:;
+.pagina{
+	color: #21610B;
+	border: 3px solid #5882FA;
+	padding: 15px;
+}
+
+body{
+	color: #FE2E64;
+	border: 3px solid #8A0829;
+	padding: 15px;
+}***********************************/
+
+
+/*
+PARA O ENTEDIMENTO DE SELETORES IGUAIS:
+p{
+	color: #5858FA;
+}
+
+p{
+	color: #FF0000;
+}***********************************/
+
+
+/*PARA O ENTENDIMENTO DE SELETORES MAIS ESPECIFICOS:
+
+* {
+	color: #8A4B08;
+}
+
+h3 {
+	color: #FF4000;
+}
+
+h3.verde{
+	color: green;
+}
+
+h3#purple{
+	color: purple;
+}***********************************/
