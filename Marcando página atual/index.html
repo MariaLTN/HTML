@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<title>Marcação da Página Atual</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body id="Home">
+
+		<h3>Barra de Navegação Vertical - Marcação da Página Atual</h3>
+
+		<p>Uma complementação a anotação anterior ("Barra de Navegação Vertical"), é para caso algum elemento não funcione corretamente, ainda consigamos ver e analisar o menu. Por exemplo, se a imagem não carregar temos uma cor para aparecer. </p>
+
+		<p>Para marcar a página que estamos, podemos colocar o "a:hover" uma classe que indica que cada vez que o link for selecionado/ciclado usaremos aquela formatação. Assim ficando, "a:hover .selecionado a" <strong>Principalmente usado quando temos uma linguagem de programação atrelado</strong>. Assim, colocamos no "li class= "selecionado""</p>
+
+		<p>Outra abordagem é com o uso dos <strong>Seletores</strong>, selecionando as páginas de forma automática. É preciso criar uma estrutura. O id="Home" indica que estamos na página HOME e class="Home" também. E o mesmo é aplicado para as páginas "Dentista" (Id e class) e com "Dermatologista".</p>
+
+		<P>#Home .Home a,
+		#Dentista .Dentista a,
+		#Dermatologista .Dermatologista a{
+		Background-position: right bottom;
+		background-color: #666FD7;
+		}</P>
+
+		<p>O uso do "id=Navegação" é pq podem existir em uma página mais de um tipo de navegação. Assim, torna mais especifico ainda e seleciona o elemento certo.</p>
+
+		<H4>Todos os itens levam a págima "HOME"</H4>
+
+		<h2>HOME</h2>
+
+		<ul id="Navegação">
+			<li class="Home">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="Dentista">
+				<a href="Dentista.html">Dentista</a>
+			</li>
+			<li class="Dermatologista">
+				<a href="Dermatologista.html">Dermatologista</a>
+			</li>
+		</ul>
+
+		<p>Imagem da Estrela: <a target="_blank" href="https://icons8.com/icon/85448/christmas-star">Christmas Star</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+
+	</body>
+</html>

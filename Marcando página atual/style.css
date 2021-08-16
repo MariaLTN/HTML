@@ -1,0 +1,28 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-indent: 40px; 
+	line-height: 40px; 
+	background: #D8CEF6 url(Imagens/Menu.png) no-repeat ;
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color: #666FD7;
+}
+
+#Home #Navegação .Home a,
+#Dentista #Navegação .Dentista a,
+#Dermatologista #Navegação .Dermatologista a{
+	background-position: right bottom;
+	background-color: #666FD7;
+}
