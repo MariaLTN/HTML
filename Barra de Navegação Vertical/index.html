@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<title>Barra de Navegação Vertical</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+		<h3>Barra de Navegação Vertical</h3>		
+
+		<P>Para a criação de uma <strong>Barra de Nvaegação Vertical</strong> precisamos <strong>customizar</strong> uma lista. Assim, remover os "*" (pontos de marcação de itens) da lista é o <strong>primeiro passo</strong>. A exclusão pode ser feita com o <strong>"list-style-type: none"</strong>. Ao usarmos listas, vermos além dos pontos de marcação de itens, vemos também um espaçamento sendo aplicado por padrão, que pode ser removida com o <strong>"margin:0"</strong> e <strong>"padding:0"</strong>.</P>
+
+		<P>Mas, para a criação de uma Barra que levem a outras páginas precisamos usar o <strong>"a href="" "</strong>. E precisamos customizá-los também, como em uma aplicação maior podem existir outros usos de "a href=""", temos que referenciar o "a" certo. Usando conhecimento das anotações passadas <strong>SELETORES</strong>, podemos usar um seletor que indique que queremos usar o "a" que está dentro de uma "ul" (Lista não ordenada). Assim, após essa referencia feita. A estilização desse elemento "ul a {}" é possível, de acordo com a imagem usada de <strong>"width: 200px"</strong> e <strong>Height: 40px</strong> e com as duas cores da imagem podemos criar um efeito de <strong>"a:hover"</strong> para alterar o fundo da imagem conforme o usuário passa o mouse por cima da barra. Logo, será violeta quando o cursor não está em cima e Azul quando está. </P>
+
+		<P>Os elementos de uma "ul" são naturalmente um elemento inline (o tamanho varia de acordo com o conteúdo), usamos o <strong>"display: block"</strong> para que os elementos fiquem o tamanho fixo. Colocamo uma <strong>"color: black"</strong> e <strong>"text-decoration: none"</strong> para retirar o sublinhado das "a" e colocarmos com uma cor preta. Como fundo colocamos o <strong>"background: url(Imagens/Menu.png) no-repeat"</strong></P>
+
+		<P>Outro ponto importante para a formatação da Barra é o uso do <strong>"line-height: 40px"</strong> e <strong>"text-indent: 40px"</strong>. O primeiro garante que que o alinhamento da fonte (Por exemplo, Home) fique localizada no meio do seu bloco; O segundo garante o posicionamento do texto a 40px (A partir da esquerda). </P>
+
+		<h4>CONTEÚDO IMPORTANTE SOBRE LINE HEIGHT & FONT SIZE/<h4>
+
+		<P>Para a movimentação do cursor, temos o uso do <strong>"a:hover"</strong>, como usaremos uma outra parte da imagem do background (Parte laranja). Assim, para garantir que essa parte aparece apenas usamos o <strong>"background-position: right bottom"</strong></P>		
+
+
+		<H4>Todos os itens levam a págima "HOME"</H4>
+
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">Dentista</a></li>
+			<li><a href="index.html">Dermatologista</a></li>
+		</ul>
+
+		<p>Imagem da Estrela: <a target="_blank" href="https://icons8.com/icon/85448/christmas-star">Christmas Star</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+
+	</body>
+</html>
