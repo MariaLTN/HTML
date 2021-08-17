@@ -1,0 +1,42 @@
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	/*border: 1px solid red;*/
+	width: 720px;
+	background: #d07c54 url(Imagens/Fundo.png) repeat-x;
+	float: left;
+}
+
+ul li{
+	/*display: inline; MANEIRA MAIS SIMPLES*/
+	float: left; /*MANEIRA RECOMENDADA*/
+	text-decoration: none;
+}
+
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2.5em;
+	text-decoration: none;
+	color: #fff;
+	background: url(Imagens/Divisor.png) repeat-y;
+	/*O padrão faz com que ele repete exatamete no final do bloco,
+	entre uma aba e outra (contando o lado esquerdo). Uma formatação
+	abaixo é para repetir após a outra.*/;
+}
+
+ul .primeiro a{
+	background: none;
+}
+
+ul a:hover{
+	color: #1D0601;
+	background: #AF6F62;
+}
+
+#Home #Navegação .Home a,
+#Dentista #Navegação .Dentista a,
+#Dermatologista #Navegação .Dermatologista a{
+	color: #1D0601;
+	background: #AF6F62;
