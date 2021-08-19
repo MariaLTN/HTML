@@ -1,0 +1,36 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+table{
+	width: 450px;
+	border-collapse: separate; /*ou collapse*/
+}
+
+th, td{
+	padding: 7px;
+}
+
+th{
+	text-transform: uppercase;  /*ou lowercase*/
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	letter-spacing: 0.1em;
+	text-align: left;
+	font-size: 90%;
+}
+
+tr.Alternado{
+	background-color: #EFEFEF;
+}
+
+
+.Número {
+	text-align: right;
+}
+
+
+tr:hover{
+	background-color: #E1F5A9;
+};
