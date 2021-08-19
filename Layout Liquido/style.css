@@ -1,0 +1,148 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #F1F1F1;
+}
+
+#Container{
+	width: 85%; /*Layout Fixo-> Width:720px;*/
+	margin: 0 auto;
+	background: #CEECF5;
+	min-width: 720px; /*Para o conteúdo não sair fora da area apropriada.*/
+	/*Fator importante, atento também que ao chegar nesse número ele para de reduzir.*/
+	max-width: 1280px; /*O mesmo serve para o Max-Width*/
+}
+
+#Marca{
+	width: 100%;
+	height: 100px;
+	background: #2E64FE;
+	text-align: center;
+	line-height: 100px;
+}
+
+#Conteúdo{
+	width: 74.28%; /*Layout Fixo-> Width:520px;*/
+	float: right;
+}
+
+#Conteúdo-Principal{
+	width: 63%; /*Layout Fixo-> Width:320px;*/
+	float: left;
+}
+
+#Conteúdo-Secundário{
+	width: 34%; /*Layout Fixo-> Width:180px;*/
+	float: right;
+	background: #819FF7;
+}
+
+#Conteúdo-Principal h2, #Conteúdo-Principal p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#Conteúdo-Secundário h2, #Conteúdo-Secundário p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#Navegação{
+	width: 25%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #A9BCF5;
+}
+
+#Navegação ul{
+	list-style: none;
+}
+
+#Navegeção li a{
+	text-decoration: none;
+}
+
+#Rodapé{
+	clear: both;
+	background: #81BEF7;
+}
+
+/*
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+}
+
+ul li{
+	float: left;
+	background: url(Imagens/aba-direita.png) no-repeat top right;
+}
+
+li a{
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	background: url(Imagens/aba-esquerda.png) no-repeat top left;
+	color: #fff;
+}
+
+ul a:hover{
+	color: #894a1f;
+}
+
+/*Marcando uma página ativa*/
+
+/*ul #atual{
+	background: url(Imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+	background: url(Imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+*/
+
+/*ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 1px solid red;
+	width: 70px;
+	background: #d07c54 url(Imagens/Fundo.png) repeat-x;
+	float: left;
+}*/
+
+/*ul li{
+	/*display: inline; MANEIRA MAIS SIMPLES*/
+	/*float: left; MANEIRA RECOMENDADA*/
+	/*text-decoration: none;
+}*/
+/*ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2.5em;
+	text-decoration: none;
+	color: #fff;
+	background: url(Imagens/Divisor.png) repeat-y;
+	O padrão faz com que ele repete exatamete no final do bloco,
+	entre uma aba e outra (contando o lado esquerdo). Uma formatação
+	abaixo é para repetir após a outra.;
+}
+*/
+/*ul .primeiro a{
+	background: none;
+}
+
+ul a:hover{
+	color: #1D0601;
+	background: #AF6F62;
+}
+*/
+/*#Home #Navegação .Home a,
+#Dentista #Navegação .Dentista a,
+#Dermatologista #Navegação .Dermatologista a{
+	color: #1D0601;
+	background: #AF6F62;
+*/
