@@ -1,0 +1,40 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset{
+	padding: 1em;
+	margin: 1em 0;
+	border: 1px solid #CCC;
+	background: #E1F5A9;
+}	
+
+legend, label{
+	font-weight: bold;
+}
+
+label{
+	display: block; /*É um elemento naturalmente inline*/
+	cursor: pointer;
+}
+
+input{ /*Assim ele não afeta o tipo radio*/
+	width: 20em;
+}
+
+input.radio, input.checkbox, input.submit{ /*Assim ele não afeta o tipo radio*/
+	width: auto;
+
+}
+
+.radio{
+	margin-right: 1em;
+}
+/*input[Type="text"] { Assim ele não afeta o tipo radio
+	width: 20em;
+}*/
+
+textarea{
+	width: 20em;
+	height: 10em;
+}
