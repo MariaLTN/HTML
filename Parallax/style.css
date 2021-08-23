@@ -1,0 +1,72 @@
+/*CONFIGURAÇÃO PADRÃO*/
+
+body, html{
+	margin: 0;
+	font: 16px "Lato", sans-serif;
+	color: #777;
+	height: 100%; /*Aqui está o 1/2 do "truque" do Parallax*/
+	/*Assim a imagem pode ocupar todo o fundo;*/
+}
+
+.Conteudo {
+	color: #777;
+	background: white;
+	text-align: justify; /*Ter aquela quebra*/
+	padding: 50px 80px;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/*EFEITO PARALLAX*/
+
+.Caixa1, .Caixa2, .Caixa3, .Caixa4 {
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover; /*Uma imagem liquida*/
+	background-position: center;
+	background-attachment: fixed; /*Aqui está a segunda 1/2
+	do segredo do Parallax*/
+}
+
+.Caixa1 {
+	background-image: url(Imagens/imagem1.jpg);
+}
+
+
+.Caixa2 {
+	background-image: url(Imagens/imagem2.jpg);
+}
+
+
+.Caixa3 {
+	background-image: url(Imagens/imagem3.jpg);
+}
+
+.Caixa4 {
+	background-image: url(Imagens/imagem4.jpg);
+}
+
+.Conteúdo-Título{
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.Conteúdo-Título span.titulo {
+	background-color: #111;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 18px;
+}
