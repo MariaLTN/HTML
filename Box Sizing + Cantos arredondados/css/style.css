@@ -1,0 +1,43 @@
+.Caixa {
+	width: 280px;
+	height: 280px;
+	background-color: #B9C941;
+	padding: 5px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	margin: 20px;
+	float: left;
+}
+
+/*Box Sizing e a influencia do Padding*/
+
+.Caixa1 {
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	background-color: #B9C941;
+	float: left;
+	margin: 20px;
+}
+
+
+.Caixa2 {
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	background-color: #B9C941;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin: 20px;
+}
+
+#Perfil {
+	border-radius: 150px;
+}
+
+.Clear{
+	clear: both;
+}
