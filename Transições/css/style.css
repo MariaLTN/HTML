@@ -1,0 +1,15 @@
+#Caixa {
+	width: 300px;
+	height: 200px;
+	padding: 8px;
+	margin: 20px;
+	background-color: orange;
+	float: left;
+}
+
+#Caixa:hover {
+	width: 500px;
+	background-color: pink;
+	/*transition: width 1s, background 3s;*/
+	transition: all 3s;
+}
