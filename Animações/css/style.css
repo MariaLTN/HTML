@@ -1,0 +1,90 @@
+/************ TRANSIÇÕES **********/
+
+#Caixa1 {
+	width: 200px;
+	height: 100px;
+	padding: 10px;
+	margin: 20px;
+	background-color: purple;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+}
+
+
+#Caixa1:hover {
+	width: 400px;
+	background-color: pink;
+	color: black;
+/*	transition: width 1s, background 3s;*/	
+	transition: all 3s; /*Width + color*/
+}
+
+
+
+/************* ANIMAÇÃO ***************/
+
+#Caixa2 {
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	margin: 20px;
+	animation-name: animacao-caixa;
+	position: relative;
+/*	animation-duration: 2s;
+	animation-iteration-count: 5; Quantidade de vezes ele repete
+	animation-direction: alternate*/;
+	animation: animacao-caixa 2s 5 alternate;
+	-webkit-animation: animacao-caixa 2s 5 alternate; /*Opções acima 
+	em uma única linha*/ 
+}
+
+@keyframes animacao-caixa {
+	from {
+		background-color: blue;
+		width: 100px;
+		height: 100px;
+		border-radius: 300px;
+		top: 0;
+		left: 0;
+	} 
+
+	to {
+		background-color: green;
+		border-radius: 300px;
+		top: 0;
+		left: 200px;
+	} 
+}
+
+/*OUTROS NAVEGADORES*/
+
+/*@-moz-keyframes animacao-caixa {
+	from {
+		background-color: blue;
+	} 
+
+	to {
+		background-color: green;
+	} 
+}
+
+@-o-keyframes animacao-caixa {
+	from {
+		background-color: blue;
+	} 
+
+	to {
+		background-color: green;
+	} 
+}
+
+@-webkit-keyframes animacao-caixa {
+	from {
+		background-color: blue;
+	} 
+
+	to {
+		background-color: green;
+	} 
+}*/
