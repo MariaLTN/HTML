@@ -1,0 +1,39 @@
+.Caixa1, .Caixa2, .Caixa3, .Caixa4, .Caixa5, .Caixa6, .Caixa7, .Caixa8 {
+	width: 150px;
+	height: 150px;
+	margin: 50px;
+	float: left;
+}
+
+.Caixa1 {	
+	background: linear-gradient(#5882FA, #FA5882)
+}
+
+.Caixa2 {
+	background: linear-gradient( to left, #5882FA, #FA5882);
+}
+
+.Caixa3 {
+	background: radial-gradient(#5882FA, #FA5882)
+}
+
+.Caixa4 {
+	background: linear-gradient(to bottom right, #5882FA, #FA5882);
+}
+
+.Caixa5 {
+	background: linear-gradient(#5882FA, #FA5882, #FACC2E);
+}
+
+.Caixa6 {
+	background: linear-gradient(to right, #5882FA, #FA5882, #FACC2E);
+}
+
+.Caixa7 {
+	background: linear-gradient(rgb(88,130,250,0), rgb(88,130,250,1));
+}
+
+.Caixa8 {
+	background: linear-gradient(to right, rgb(250,204,46,0), rgb(250,88,130), rgb(250,204,46,1));
+}
+
