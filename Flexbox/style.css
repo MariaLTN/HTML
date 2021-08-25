@@ -1,0 +1,41 @@
+#Conteudo{
+	background: #DCDCDC;
+	/*width: 300px;*/
+	height: 400px;
+	display: flex;	
+}
+
+	/*flex-direction: ROW | ROW-REVERSE | COLUMN | COLUMN-REVERSE*/
+	/*flex-direction: row;*/
+
+	/*QUEBRAS DE LAYOUT: NOWRAP (Aperta para caber) | WRAP (Só o que cabe)| WRAP-REVERSE*/
+	/*flex-wrap: wrap; */
+
+	/*FLEX-START | FLEX-END | CENTER |SPACE-BETWEEN (Extremindades coladas as laterais) 
+	| SPACE-AROUND*/
+	/*justify-content: flex-start;*/
+
+	/*STRETCH | CENTER | FLEX-START | FLEX-END | BASELINE|*/
+	/*align-items: baseline;}*/
+
+.Item{	
+	/*width: 200px;*/
+	height: 100px;
+	background: white;
+	border: 1px dotted gray;
+	margin: 10px;
+
+	/*Define a proporção de espaço ocupado por um item*/
+	flex-grow: 0;/* 1=100% do espaço  /*Capacidade de aumentar*/
+	
+	/*Define a capaciade de redução de tamanho*/
+	flex-shrink: 2; /*Capacidade de diminuir*/
+	
+	/*Indica o tamanho inicial do flex item antes da
+	distribuição do espaço restante*/
+	flex-basis: 100px; /*AUTO | ?px |
+	"Atua também como um width=200px;"*/
+}
+
+.or1 {flex-grow:  6} /*Menor o espaço que ele ocupa.*/
+ 
